@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import com.develop.sary.R
 import com.develop.sary.app.App
 import com.develop.sary.network.Resource
-import com.develop.sary.view.dashboard.ui.home.HomeFragment
+import com.develop.sary.view.dashboard.fragments.home.HomeFragment
 import com.google.android.material.snackbar.Snackbar
 
 fun <A : Activity> Activity.startNewActivity(activity: Class<A>) {

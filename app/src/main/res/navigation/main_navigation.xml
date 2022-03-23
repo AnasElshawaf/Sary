@@ -8,18 +8,18 @@
     <fragment
         android:id="@+id/homeFragment"
         tools:layout="@layout/fragment_home"
-        android:name="com.develop.sary.view.dashboard.ui.home.HomeFragment"
+        android:name="com.develop.sary.view.dashboard.fragments.home.HomeFragment"
         android:label="HomeFragment" />
 
     <fragment
         android:id="@+id/ordersFragment"
-        android:name="com.develop.sary.view.dashboard.ui.orders.OrdersFragment"
+        android:name="com.develop.sary.view.dashboard.fragments.orders.OrdersFragment"
         android:label="fragment_orders"
         tools:layout="@layout/fragment_orders" />
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.develop.sary.view.dashboard.ui.profile.ProfileFragment"
+        android:name="com.develop.sary.view.dashboard.fragments.profile.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 

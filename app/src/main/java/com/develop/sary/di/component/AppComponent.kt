@@ -5,7 +5,7 @@ import com.develop.sary.di.module.AndroidModule
 import com.develop.sary.di.module.ApplicationModule
 import com.develop.sary.network.RemoteDataSource
 import com.develop.sary.view.dashboard.MainActivity
-import com.develop.sary.view.dashboard.ui.home.HomeFragment
+import com.develop.sary.view.dashboard.fragments.home.HomeFragment
 import dagger.Component
 import javax.inject.Singleton
 

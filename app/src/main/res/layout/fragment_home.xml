@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         android:background="@color/white"
         android:layoutDirection="rtl"
-        tools:context=".view.dashboard.ui.home.HomeFragment">
+        tools:context=".view.dashboard.fragments.home.HomeFragment">
 
         <LinearLayout
             android:layout_width="match_parent"

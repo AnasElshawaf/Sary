@@ -12,7 +12,7 @@ import timber.log.Timber
 import java.lang.reflect.Field
 
 
-open class App : Application() {
+class App : Application() {
 
     init {
         instance = this

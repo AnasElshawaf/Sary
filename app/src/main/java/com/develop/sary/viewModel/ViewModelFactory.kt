@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.develop.sary.repository.BaseRepository
 import com.develop.sary.repository.HomeRepository
-import com.develop.sary.view.dashboard.ui.home.HomeViewModel
+import com.develop.sary.view.dashboard.fragments.home.HomeViewModel
 
 @Suppress("UNCHECKED_CAST")
 class ViewModelFactory(private val repository: BaseRepository) :

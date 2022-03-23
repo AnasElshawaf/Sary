@@ -73,9 +73,4 @@ dependencies {
     kapt Libs.daggerProcessor
     kapt Libs.daggerCompiler
 
-    //Handle no internet
-    implementation 'org.imaginativeworld.oopsnointernet:oopsnointernet:2.0.0'
-
-//    implementation 'com.github.smarteist:autoimageslider:1.4.0'
-
 }

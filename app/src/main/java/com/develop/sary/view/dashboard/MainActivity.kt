@@ -11,7 +11,7 @@ import com.develop.sary.databinding.ActivityMainBinding
 import com.develop.sary.network.HomeApi
 import com.develop.sary.repository.HomeRepository
 import com.develop.sary.view.BaseActivity
-import com.develop.sary.view.dashboard.ui.home.HomeViewModel
+import com.develop.sary.view.dashboard.fragments.home.HomeViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : BaseActivity<HomeViewModel, ActivityMainBinding, HomeRepository>() {

@@ -43,8 +43,6 @@ object BuildPlugins {
     val kotlinAndroid = "kotlin-android"
     val kotlinKapt = "kotlin-kapt"
     val kotlinAndroidExtensions = "kotlin-android-extensions"
-//    val androidGradle = "com.android.tools.build:gradle:${Versions.ANDROID_GRADLE_VERSION}"
-//    val kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.KOTLIN}"
 }
 
 object Android {

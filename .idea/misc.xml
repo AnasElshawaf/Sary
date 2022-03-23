@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable-v24/bg_circle_shimmer.xml" value="0.1325" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable/bg_radius_corner_gray.xml" value="0.1375" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable/bg_radius_shimmer.xml" value="0.1325" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable/bg_round_shimmer.xml" value="0.1325" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable/bg_splash_gradient.xml" value="0.1375" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable/circle_imageview_style.xml" value="0.1375" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable/ic_cart.xml" value="0.1375" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable/ic_orders.xml" value="0.1375" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable/ic_profile.xml" value="0.1375" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable/ic_sary_logo_svg.xml" value="0.1375" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable/ic_store.xml" value="0.1375" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/drawable/selector.xml" value="0.1375" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/fragment_home.xml" value="0.14" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/fragment_orders.xml" value="0.20416666666666666" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/fragment_profile.xml" value="0.19010416666666666" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/image_slider_layout_item.xml" value="0.10371376811594203" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/item_banner_recyclerview.xml" value="0.33" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/item_child_recyclerview.xml" value="0.25" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/item_group_linear_recyclerview.xml" value="0.20416666666666666" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/item_group_recyclerview.xml" value="0.33" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/item_parent_recyclerview.xml" value="0.20416666666666666" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/item_smart_recyclerview.xml" value="0.33" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/layout/shimmer_fragment_home.xml" value="0.18" />
+        <entry key="..\:/Development/Android/Projects/Sary/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

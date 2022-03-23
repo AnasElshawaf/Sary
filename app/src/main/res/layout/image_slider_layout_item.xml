@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="position"
+            type="java.lang.Integer" />
+
+        <variable
+            name="model"
+            type="com.develop.sary.responses.HomeSliderResponse.Data" />
+
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sliderView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/imageViewSlider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:slideImage="@{model.image}"
+            android:adjustViewBounds="true" />
+
+    </androidx.cardview.widget.CardView>
+</layout>

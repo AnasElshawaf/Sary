@@ -1,0 +1,81 @@
+apply plugin: BuildPlugins.androidApplication
+apply plugin: BuildPlugins.kotlinAndroid
+apply plugin: BuildPlugins.kotlinKapt
+apply plugin: BuildPlugins.kotlinAndroidExtensions
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId Android.applicationId
+        minSdk Android.minSDK
+        targetSdk Android.targetSDK
+        versionCode Android.versionCode
+        versionName Android.versionName
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        dataBinding true
+    }
+}
+
+dependencies {
+
+    implementation Libs.coreExt
+    implementation Libs.appCompat
+    implementation Libs.material
+    implementation Libs.constraintLayout
+    implementation Libs.legacy
+    implementation Libs.multidex
+
+    testImplementation TestLibs.junit
+    androidTestImplementation TestLibs.junit_ext
+    androidTestImplementation TestLibs.espresso
+
+    implementation Libs.timber
+
+    implementation Libs.animatedSvg
+    implementation Libs.sdp
+    implementation Libs.ssp
+    implementation Libs.facebookShimmer
+    implementation Libs.autoimageslider
+    implementation Libs.glide
+    kapt Libs.glideCompiler
+
+    implementation Libs.retrofit
+    implementation Libs.gsonConverter
+    implementation Libs.coroutines
+
+    implementation Libs.lifecycleExtensions
+    implementation Libs.livedata
+
+    implementation Libs.navigationFragmentKtx
+    implementation Libs.navigationUiKtx
+    implementation(Libs.loggingInterceptor)
+
+    implementation Libs.dagger
+    implementation Libs.daggerSupport
+    kapt Libs.daggerProcessor
+    kapt Libs.daggerCompiler
+
+    //Handle no internet
+    implementation 'org.imaginativeworld.oopsnointernet:oopsnointernet:2.0.0'
+
+//    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+
+}

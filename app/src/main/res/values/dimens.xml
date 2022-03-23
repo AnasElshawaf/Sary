@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="default_spacing">@dimen/_16sdp</dimen>
+    <dimen name="small_text_size">@dimen/_10ssp</dimen>
+    <dimen name="medium_text_size">@dimen/_12ssp</dimen>
+    <dimen name="large_text_size">@dimen/_14ssp</dimen>
+    <dimen name="corner_radius">@dimen/_10sdp</dimen>
+    <dimen name="button_height">@dimen/_36sdp</dimen>
+
+</resources>

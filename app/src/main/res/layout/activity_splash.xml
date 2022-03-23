@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash_gradient"
+    tools:context=".view.splash.SplashActivity">
+
+    <com.jaredrummler.android.widget.AnimatedSvgView
+        android:id="@+id/animatedSvgView"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="center"
+        app:animatedSvgFillColors="@array/sary_glyph_colors"
+        app:animatedSvgFillStart="1000"
+        app:animatedSvgFillTime="1000"
+        app:animatedSvgGlyphStrings="@array/sary_glyph_strings"
+        app:animatedSvgImageSizeX="500"
+        app:animatedSvgImageSizeY="200"
+        app:animatedSvgTraceTime="2000"
+        app:animatedSvgTraceTimePerGlyph="1000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
